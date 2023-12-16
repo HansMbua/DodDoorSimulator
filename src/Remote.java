@@ -9,9 +9,9 @@ public class Remote {
     public void pressButton(){
         System.out.println("Pressing the remote control button....");
         if (door.isOpen()){
-            door.open();
-        }else {
             door.close();
+        }else {
+            door.open();
         }
     }
 }
