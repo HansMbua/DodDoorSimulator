@@ -1,9 +1,9 @@
 public class dogDoor {
     private boolean open;
 
-    public dogDoor(boolean open) {
-        this.open = open;
-    }
+//    public dogDoor(boolean open) {
+//        this.open = open;
+//    }
 
 
     public void open(){
