@@ -1,6 +1,6 @@
 
 public class Remote {
-    private dogDoor door;
+    private final dogDoor door;
 
     public Remote(dogDoor door) {
         this.door = door;
